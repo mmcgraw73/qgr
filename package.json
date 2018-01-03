@@ -1,10 +1,13 @@
 {
   "name": "qgr",
   "version": "0.0.1",
-  "description": "quick grep utility ",
+  "description": "quick grep utility",
   "main": "qgr.js",
   "scripts": {
     "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "bin": {
+    "qgr": "qgr.js"
   },
   "preferGlobal": true,
   "repository": {
