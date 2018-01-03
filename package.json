@@ -1,0 +1,11 @@
+{
+  "name": "qgr",
+  "version": "0.0.1",
+  "description": "quick grep utility ",
+  "main": "qgr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mmcgraw73",
+  "license": "ISC"
+}
