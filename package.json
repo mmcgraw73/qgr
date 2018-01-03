@@ -4,8 +4,16 @@
   "description": "quick grep utility ",
   "main": "qgr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcgraw73/qgr.git"
   },
   "author": "mmcgraw73",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-readme": "^0.1.9"
+  }
 }
